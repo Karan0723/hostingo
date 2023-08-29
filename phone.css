@@ -49,8 +49,18 @@
     }
 
     #your-section {
-        height: 360px;
+        width: 100%;
+        height: 300px;
+        background: url(assest/image/banner-1.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        color: white;
+        position: relative;
+        text-align: center;
+    }
 
+    #your-section .container h1 {
+        margin: 16px 0px;
     }
 
 

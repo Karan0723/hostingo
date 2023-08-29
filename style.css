@@ -275,11 +275,12 @@
 
 
 
-#your-section .container {
+#your-section .container  {
     position: absolute;
     top: 120px;
     left: 150px;
     width: 45%;
+   
 }
 
 #your-section .container p {
