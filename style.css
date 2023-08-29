@@ -8,6 +8,7 @@
 }
 
 
+
 /*  Top header  */
 
 .top-header {
@@ -21,12 +22,13 @@
 .top-header .container {
     display: flex;
     justify-content: space-evenly;
-    padding: 14px;
+    padding: 14px 0px;
+    margin: 0px 16px;
+
 }
 
 .lcon {
     display: flex;
-
 }
 
 .rcon {
@@ -45,7 +47,7 @@
     display: flex;
     justify-content: space-evenly;
     padding: 8px 16px;
-    margin-right: 24px;
+    margin: 0px 12px;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
@@ -521,7 +523,7 @@
 
 #partner .container h1 {
     color: #1d3b5a;
-    margin: 30px;
+    margin: 30px 0px;
 }
 
 
@@ -691,6 +693,7 @@
 
 #wide-range .container {
     text-align: center;
+
 }
 
 
@@ -784,6 +787,7 @@
     color: white;
     padding: 50px 0px;
     background: url(assest/image/data-center-bg.png);
+
 }
 
 #transform .container p {
@@ -894,7 +898,9 @@
 /* about-us */
 
 
-#about-us {}
+#about-us {
+    /* display: none; */
+}
 
 
 #about-us .container {
@@ -1049,7 +1055,7 @@
 
 #support .container h1,
 h3 {
-    padding: 14px;
+    padding: 14px 0px;
 }
 
 
@@ -1102,7 +1108,7 @@ h3 {
 
 
 #footer .container {
-    display: flex;
+    display: flex;  
     justify-content: space-evenly;
 }
 

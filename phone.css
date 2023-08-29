@@ -1,0 +1,280 @@
+@media screen and (max-width:768px) {
+
+    h1,
+    h2,
+    h3 {
+        font-size: 24px;
+    }
+
+
+
+    .top-header .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+
+
+    .lcon {
+        display: inline-block;
+    }
+
+
+
+    .r-sal {
+        padding: 8px 16px;
+        margin-right: 0px;
+        cursor: pointer;
+
+    }
+
+    .r-sal i {
+        display: none;
+    }
+
+    .sale {
+        background-color: #eb6708;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 16px;
+        margin: 16px 0px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+
+    }
+
+    #your-section {
+        height: 360px;
+
+    }
+
+
+    #card .container {
+        margin: 0px 16px;
+    }
+
+    #card .card {
+        width: 355px;
+        height: auto;
+        padding: 16px 0px;
+        border: 2px solid #066aab;
+        border-radius: 10px;
+        transition: .3s;
+        margin: 20px 6px;
+    }
+
+    #choose .container .cont {
+        width: auto;
+        margin-bottom: 50px;
+    }
+
+
+
+    .box1 {
+        width: 360px;
+        margin: 20px 8px;
+        padding-top: 55px;
+        border: 1px solid #7f808160;
+        border-radius: 10px;
+        background: linear-gradient(-90deg, #FFFFFF 0%, #E2F0FF 100%);
+        transition: .3s;
+    }
+
+    #wide-range .container .box-top {
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+
+
+
+
+
+
+    #wide-range .container .box-top {
+        display: block;
+    }
+
+
+    #wide-range .container {
+        margin: 0px 12px;
+    }
+
+
+    #card .container {
+        display: inline-block;
+    }
+
+    #features .container {
+        margin: 0px 16px;
+    }
+
+    #features .container .box {
+        display: block;
+    }
+
+    #choose .container {
+        margin: 0px 16px;
+    }
+
+
+    #partner .container {
+        display: none;
+    }
+
+
+
+    #features .container .box .box-1 {
+        text-align: center;
+        width: 340px;
+        padding: 50px 40px;
+        border: 2px solid #066aab;
+        border-radius: 10px;
+        transition: 0.3s;
+        margin: 20px 0px;
+
+    }
+
+    #choose .container .big-box .box-1 {
+        display: none;
+        margin-bottom: 20px;
+    }
+
+    #choose .container .big-box .box2 {
+        display: none;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 20px;
+
+    }
+
+
+    #choose .container .big-box .box3 {
+        display: none;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+
+    #choose .container .big-box .box-1 img {
+        float: left;
+        cursor: pointer;
+        transition: .3s;
+    }
+
+    #choose .container .big-box .box2 img {
+        float: left;
+        cursor: pointer;
+        margin-right: 16px;
+        transition: .3s;
+
+    }
+
+    #choose .container .big-box .box3 img {
+        float: left;
+        cursor: pointer;
+        margin-right: 16px;
+        transition: .3s;
+    }
+
+
+
+    #your-section .container {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: auto;
+        padding: 16px;
+    }
+
+
+    #transform .container {
+        padding: 50px 16px;
+    }
+
+    #transform .container h1::after {
+        content: "";
+        position: absolute;
+        border: 1px solid rgb(255, 255, 255);
+        width: 30px;
+        bottom: -20px;
+        right: 180px;
+    }
+
+
+    .nav ul {
+        display: none;
+    }
+
+
+    #choose .host-img {
+        display: none;
+    }
+
+
+    #card .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+
+    #card .footer p {
+        padding: 16px;
+    }
+
+    #about-us {
+        display: none;
+    }
+
+
+    #support .container {
+        margin: 0px 16px;
+    }
+
+    #support .container button {
+        display: block;
+        margin: auto;
+        margin-top: 18px;
+    }
+
+
+
+
+
+    #footer .container {
+        display: block;
+        margin: 0px 16px;
+    }
+
+
+    #footer-bottom .container {
+        display: inline;
+        margin: 0px 16px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
