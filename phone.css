@@ -1,5 +1,17 @@
 @media screen and (max-width:768px) {
 
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: 'Kiwi Maru', serif;
+        font-family: 'Roboto', sans-serif;
+        scroll-behavior: smooth;
+        overflow: auto;
+    }
+
+
+
     h1,
     h2,
     h3 {
